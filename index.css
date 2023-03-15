@@ -99,8 +99,11 @@ header,
     color: whitesmoke;
 }
 
+/* width: 100% means that the container will
+resize according to their parent's width */
 .container {
-    width: 640px;
+
+    width: 90%;
     margin: 0 auto;
 }
 
