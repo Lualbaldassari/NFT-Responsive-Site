@@ -10,3 +10,46 @@ They are relative to another value
 Percentages :
 When using a percentage for width the percentage is based on the width of its
 parent element 
+
+maximum-width:
+
+If the width goes above max-width, keep it at max width.
+If the width is below max-width, keep it on width
+
+
+The em unit: 
+*Relative units are named that way because 
+they are relative to another value*
+
+And ems in particular are used to set dynamic
+font sizes that are relative to their parten font
+sizes 
+
+Margin and padding values in em are relative to the
+element's current font-size value
+
+Rem unit: always relative to the root html element
+
+
+<!-- Font Size
+ * USE REM
+ * NO COMPOUNDING
+ * MORE PREDICTABLE
+-->
+
+<!-- MArgin & Padding
+* USE EM
+* PROPORTIONAL SCALING
+* BASED ON ELEMENTS CURRENT FONT SIZE-->
+
+<!-- WIDTH
+* USE %
+* Flexible containers
+* Flexible images
+ -->
+
+ <!-- Maxi Width
+ * use px
+ * easier to manage
+ * ensures consistency
+  -->
