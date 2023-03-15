@@ -1,0 +1,12 @@
+
+Absolute units :
+Always appear the same size no matter where you 
+view them(px)
+
+Relative units :
+They are relative to another value
+(percentages )
+
+Percentages :
+When using a percentage for width the percentage is based on the width of its
+parent element 
